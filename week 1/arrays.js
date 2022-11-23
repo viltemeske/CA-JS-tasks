@@ -48,6 +48,6 @@ let sentence5 = helpers[3] + helpers[7] + nouns[8] + helpers[7] + helpers[4] + h
 console.log(sentence5);
 let sentence6 = helpers[3] + helpers[7] + nouns[7] + helpers[7] + helpers[4] + helpers[7] + helpers[0] + helpers[7] + helpers[6] + helpers[7] + nouns[6];
 console.log(sentence6);
-let sentence7 = helpers[3] + helpers[7] + adjectives [0] + nouns[9] + helpers[4] + helpers[7] + nouns[0];
+let sentence7 = helpers[3] + helpers[7] + adjectives [0] + helpers[7] + nouns[9] + helpers[7] + helpers[4] + helpers[7] + nouns[0];
 console.log(sentence7);
 

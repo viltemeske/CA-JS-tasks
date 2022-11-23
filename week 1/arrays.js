@@ -51,3 +51,4 @@ console.log(sentence6);
 let sentence7 = helpers[3] + helpers[7] + adjectives[0] + helpers[7] + nouns[9] + helpers[7] + helpers[4] + helpers[7] + nouns[0];
 console.log(sentence7);
 
+

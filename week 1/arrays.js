@@ -34,7 +34,7 @@ let sentence1 = helpers[3] + helpers[7] + nouns[1] + helpers[7] + helpers[4] + h
 //                'my'         ' '        'sister'      ' '          'is'          ' '         'in'          ' '         'the'         ' '       'lake'                                                                               
 console.log(sentence1);
 // 2. hammer is on the table
-let sentence2 = nuons[2] + helpers[7] + helpers[4] + helpers[7] + helpers[2] + helpers[7] + helpers[6] + helpers[7] + nouns[4];
+let sentence2 = nouns[2] + helpers[7] + helpers[4] + helpers[7] + helpers[2] + helpers[7] + helpers[6] + helpers[7] + nouns[4];
 // 3. sun is in the sky
 let sentence3 = nouns[3] + helpers[7] + helpers[4] + helpers[7] + helpers[0] + helpers[7] + helpers[6] + helpers[7] + nouns[5];
 7// 4. apple is with my sister

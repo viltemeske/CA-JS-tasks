@@ -42,14 +42,14 @@ const obj = {
   
   console.group('Lietuva yra šalis kurioje gyvenu.');
   {
-    const result = obj.a.p + obj.y + obj.l + obj.y + obj.e.l + obj.y + obj.f[1].a.s + obj.y + obj.f[1].s;
+    const result = obj.a.p + obj.y + obj.l + obj.y + obj.e.l + obj.y + obj.f[1].a.s + obj.y + obj.f[1].s + obj.c[2].k;
     console.log(result);
   }
   console.groupEnd();
   
   console.group('mano mėgstamiausia spalva yra žalia.');
   {
-    const result = obj.f[0].a[2] + obj.y + obj.c[1] + obj.y + obj.f[1].l + obj.y + obj.l + obj.y + obj.e.d + obj.y;
+    const result = obj.f[0].a[2] + obj.y + obj.c[1] + obj.y + obj.f[1].l + obj.y + obj.l + obj.y + obj.e.d + obj.c[2].k;
     console.log(result);
   }
   console.groupEnd();

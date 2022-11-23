@@ -63,7 +63,7 @@ const obj = {
   
   console.group('galbūt gera proga susitikti?');
   {
-    const result = '';
+    const result = obj.e.a[0].v + obj.y + obj.f[0].a[1] + obj.y + obj.a.g + obj.y + obj.e.a[0].p[0] + obj.f[1].a.o[0];
     console.log(result);
   }
   console.groupEnd();

@@ -49,7 +49,7 @@ const obj = {
   
   console.group('mano mėgstamiausia spalva yra žalia.');
   {
-    const result = '';
+    const result = obj.f[0].a[2] + obj.y + obj.c[1] + obj.y + obj.f[1].l + obj.y + obj.l + obj.y + obj.e.d + obj.y;
     console.log(result);
   }
   console.groupEnd();

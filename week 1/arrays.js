@@ -35,5 +35,6 @@ console.log(sentence1);
 // 2. hammer is on the table
 let sentence2 = nuons[2] + helpers[7] + helpers[4] + helpers[7] + helpers[2] + helpers[7] + helpers[6] + helpers[7] + nouns[4];
 // 3. sun is in the sky
-// 4. apple is with my sister
+let sentence3 = nuons[3] + helpers[7] + helpers[4] + helpers[7] + helpers[0] + helpers[7] + helpers[6] + helpers[7] + nouns[5];
+7// 4. apple is with my sister
 // 5. Papildyti masyvą žodžiais, ir sukurti dar 3 +-logiškus sakinius.

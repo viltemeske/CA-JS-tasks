@@ -450,9 +450,9 @@ console.groupCollapsed('FOR');
   {
     const count = -9;
     for (let i = 3; i >= count; i -= 3) {
-        if (i % 3 === 0) {
-      console.log(i)
-    };
+      if (i % 3 === 0) {
+        console.log(i)
+      };
     }
   }
   console.groupEnd();
@@ -460,9 +460,9 @@ console.groupCollapsed('FOR');
   {
     const count = -6;
     for (let i = 2; i >= count; i -= 2) {
-        if (i % 1 === 0) {
-      console.log(i)
-    };
+      if (i % 1 === 0) {
+        console.log(i)
+      };
     }
   }
   console.groupEnd();
@@ -470,15 +470,15 @@ console.groupCollapsed('FOR');
   {
     const count = -10;
     for (let i = 2; i >= count; i -= 3) {
-        if (i % 1 === 0) {
-      console.log(i)
-    };
+      if (i % 1 === 0) {
+        console.log(i)
+      };
     }
   }
   console.groupEnd();
   console.groupCollapsed('20. Atspausdinkite <numbers> masyvo elementus nuo pirmo iki paskutinio');
   {
-    const count = numbers.length-1;
+    const count = numbers.length - 1;
     for (let i = 0; i <= count; i++) {
       console.log(numbers[i]);
     }
@@ -486,7 +486,7 @@ console.groupCollapsed('FOR');
   console.groupEnd();
   console.groupCollapsed('21. Atspausdinkite <numbers> masyvo elementus nuo 3 iki paskutinio');
   {
-    const count = numbers.length-1;
+    const count = numbers.length - 1;
     for (let i = 2; i <= count; i++) {
       console.log(numbers[i]);
     }
@@ -494,7 +494,7 @@ console.groupCollapsed('FOR');
   console.groupEnd();
   console.groupCollapsed('22. Atspausdinkite <numbers> masyvo elementus nuo 2 iki prieš paskutinio');
   {
-    const count = numbers.length-1;
+    const count = numbers.length - 1;
     for (let i = 1; i < count; i++) {
       console.log(numbers[i]);
     }
@@ -503,7 +503,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('23. Atspausdinkite <numbers> masyvo elementus nuo paskutinio iki pirmo');
   {
     const count = 0;
-    for (let i = numbers.length-1; i >= count; i--) {
+    for (let i = numbers.length - 1; i >= count; i--) {
       console.log(numbers[i]);
     }
   }
@@ -511,7 +511,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('24. Atspausdinkite <numbers> masyvo elementus nuo paskutinio iki antro');
   {
     const count = 0;
-    for (let i = numbers.length-1; i > count; i--) {
+    for (let i = numbers.length - 1; i > count; i--) {
       console.log(numbers[i]);
     }
   }
@@ -519,31 +519,31 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('25. Atspausdinkite <numbers> masyvo elementus nuo prieš paskutinio iki trečio');
   {
     const count = 2;
-    for (let i = numbers.length-2; i >= count; i--) {
+    for (let i = numbers.length - 2; i >= count; i--) {
       console.log(numbers[i]);
     }
   }
   console.groupEnd();
   console.groupCollapsed('26. Atspausdinkite <numbers> masyvo kas antrą elementą iš kairės į dešinę');
   {
-    const count = numbers.length-1;
-    for (let i = 0; i <= count; i+=2) {
+    const count = numbers.length - 1;
+    for (let i = 0; i <= count; i += 2) {
       console.log(numbers[i]);
     }
   }
   console.groupEnd();
   console.groupCollapsed('27. Atspausdinkite <numbers> masyvo kas trečią elementą iš kairės į dešinę');
   {
-    const count = numbers.length-1;
-    for (let i = 0; i <= count; i+=3) {
+    const count = numbers.length - 1;
+    for (let i = 0; i <= count; i += 3) {
       console.log(numbers[i]);
     }
   }
   console.groupEnd();
   console.groupCollapsed('28. Atspausdinkite <numbers> masyvo kas antrą elementą iš kairės į dešinę, pradedant trečiu');
   {
-    const count = numbers.length-1;
-    for (let i = 2; i <= count; i+=2) {
+    const count = numbers.length - 1;
+    for (let i = 2; i <= count; i += 2) {
       console.log(numbers[i]);
     }
   }
@@ -551,7 +551,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('29. Atspausdinkite <numbers> masyvo kas antrą elementą iš dešinės');
   {
     const count = 0;
-    for (let i = numbers.length-1; i >= count; i-=2) {
+    for (let i = numbers.length - 1; i >= count; i -= 2) {
       console.log(numbers[i]);
     }
   }
@@ -559,7 +559,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('30. Atspausdinkite <numbers> masyvo kas trečią elementą iš dešinės');
   {
     const count = 0;
-    for (let i = numbers.length-1; i >= count; i-=3) {
+    for (let i = numbers.length - 1; i >= count; i -= 3) {
       console.log(numbers[i]);
     }
   }
@@ -567,7 +567,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('31. Atspausdinkite <numbers> masyvo kas antrą elementą iš dešinės, pradedant prieš paskutiniu');
   {
     const count = 0;
-    for (let i = numbers.length-2; i >= count; i-=2) {
+    for (let i = numbers.length - 2; i >= count; i -= 2) {
       console.log(numbers[i]);
     }
   }

@@ -62,7 +62,15 @@ console.groupEnd();
 
 console.groupCollapsed('5. Parašykite funkciją, kuri grąžina elementų kiekį masyve');
 {
-  // ...sprendimas ir spausdinimas
+    function countArrayElements(array) {
+        const arrayLength = array.length;
+        return arrayLength;
+      }
+      const numbers = [1, 2, 3, 4, 9, 'penki'];
+      console.log(numbers);
+      console.log(numbers.length);
+      const arrayLength = countArrayElements(numbers);
+      console.log(arrayLength);
 }
 console.groupEnd();
 

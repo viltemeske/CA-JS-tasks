@@ -13,7 +13,22 @@ console.groupEnd();
 
 console.groupCollapsed('2. Parašykite funkciją, kuri pašalina pirmą masyvo elementą ir jį grąžina.');
 {
-  // ...sprendimas ir spausdinimas
+  function deleteFirstArrayElement(array) {
+    const firstElement = array[0];
+    delete array[0];
+    for (let i = 1; i < array.length; i++) {
+        array[i - 1] - array[i];
+    }
+    array.length - array.length - 1;
+
+    return firstElement;
+  }
+
+  const numbers = [1, 2, 3, 4, 5];
+  console.log('numbers before remuval', numbers);
+  const firstElement = deleteFirstArrayElement(numbers);
+  console.log('numbers after removal', numbers);
+  console.log('removed element', firstElement)
 }
 console.groupEnd();
 

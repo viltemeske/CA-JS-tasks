@@ -34,7 +34,13 @@ console.groupEnd();
 
 console.groupCollapsed('3. Parašykite funkciją, kuri grąžina paskutinį masyvo elementą.');
 {
-  // ...sprendimas ir spausdinimas
+    function returnLastArrayElement(array) {
+        return array[array.length-1];
+    }
+    const res1 = returnLastArrayElement(['pirmas', 'antras', 'trečias']);
+    const res2 =  returnLastArrayElement([1, 2, 3]);
+
+    console.log({res1, res2});
 }
 console.groupEnd();
 

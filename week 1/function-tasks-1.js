@@ -67,16 +67,20 @@ console.groupCollapsed('5. Parašykite funkciją, kuri grąžina elementų kiek�
         return arrayLength;
       }
       const numbers = [1, 2, 3, 4, 9, 'penki'];
-      console.log(numbers);
-      console.log(numbers.length);
       const arrayLength = countArrayElements(numbers);
-      console.log(arrayLength);
+      console.log('Masyvo elmentų kiekis: ', arrayLength);
 }
 console.groupEnd();
 
 console.groupCollapsed('6. Parašykite funkciją, kuri atspausdina paskutinio masyvo elemento indeksą');
 {
-  // ...sprendimas ir spausdinimas
+    function indexLastArrayElement(array) {
+        const lastIndex = array.length - 1;
+        return lastIndex;
+      }
+      const numbers = [1, 2, 3, 4, 9, 'penki'];
+      const lastIndex = indexLastArrayElement(numbers);
+      console.log('paskutinio elemento indeksas: ', lastIndex);
 }
 console.groupEnd();
 

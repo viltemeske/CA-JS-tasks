@@ -164,7 +164,7 @@ console.groupCollapsed('WHILE');
     while (i >= -9) {
       if (i % 3 === 0) {
         console.log(i);
-        i -= 3;
+        i -= 1;
       }
     }
   }
@@ -173,9 +173,9 @@ console.groupCollapsed('WHILE');
   {
     let i = 2;
     while (i >= -6) {
-      if (i % 1 === 0) {
+      if (i % 2 === 0) {
         console.log(i);
-        i -= 2;
+        i -= 1;
       }
     }
   }
@@ -431,7 +431,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('15. Sukurkite ciklą kuris atspausdintų 2, 4, 6, 8, 10. Tikrinant ar kintamasis yra lyginis. Naudokite liekanos operatorių');
   {
     const count = 10;
-    for (let i = 2; i <= count; i += 2) {
+    for (let i = 2; i <= count; i += 1) {
       if (i % 2 === 0) {
         console.log(i)
       };
@@ -449,7 +449,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('17. Sukurkite ciklą kuris atspausdintų 3, 0, -3, -6, -9. Tikrinant ar kintamojo liekana dalinant iš 3 yra lygi 0?');
   {
     const count = -9;
-    for (let i = 3; i >= count; i -= 3) {
+    for (let i = 3; i >= count; i -= 1) {
       if (i % 3 === 0) {
         console.log(i)
       };
@@ -459,8 +459,8 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('18. Sukurkite ciklą kuris atspausdintų 2, 0, -2, -4, -6. Tikrinant ar kintamojo liekana');
   {
     const count = -6;
-    for (let i = 2; i >= count; i -= 2) {
-      if (i % 1 === 0) {
+    for (let i = 2; i >= count; i -= 1) {
+      if (i % 2 === 0) {
         console.log(i)
       };
     }

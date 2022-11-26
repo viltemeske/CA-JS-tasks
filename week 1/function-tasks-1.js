@@ -86,14 +86,33 @@ console.groupEnd();
 
 console.groupCollapsed('7. Parašykite funkciją, kuri atspausdina kiekvieno masyvo elemento indeksus eilutėmis');
 {
-  // ...sprendimas ir spausdinimas
+    function printArryIndexesInRows() {
+    const array = ['keturi', 'trys', 'šeši'];
+    let i = 0;
+    while (i < array.length) {
+      console.log(i);
+      i++;
+    }
+}    
+    printArryIndexesInRows();
 }
+
 console.groupEnd();
 
 console.groupCollapsed('8. Parašykite funkciją, kuri atspausdina kiekvieno masyvo elemento reikšmes eilutėmis');
+
 {
-  // ...sprendimas ir spausdinimas
+    function printArryElementsInRows() {
+    const array = ['keturi', 'trys', 'šeši']
+    let i = 0;
+    while (i < array.length) {
+      console.log(array[i]);
+      i++;
+    }
+}    
+    printArryElementsInRows();
 }
+
 console.groupEnd();
 
 console.groupCollapsed('9. Parašykite funkciją, kuri atspausdina kiekvieno masyvo elemento indekso ir reikšmių poras eilutėmis, tokiu formatu:  ');
@@ -101,7 +120,7 @@ console.groupCollapsed('9. Parašykite funkciją, kuri atspausdina kiekvieno mas
 // [1] => reikšmė
 // [2] => reikšmė
 {
-  // ... sprendimas ir spausdinimas
+    
 }
 console.groupEnd();
 
@@ -112,14 +131,40 @@ console.groupCollapsed('10. Parašykite funkciją, kuri atspausdina masyvo eleme
 console.groupEnd();
 
 console.groupCollapsed('11. Parašykite funkciją, kuri atspausdina kiekvieno masyvo elemento indeksus vienoje eilutėje: 0 1 2 3 ...');
-{
-  // ...sprendimas ir spausdinimas
+{     
+  function printIndexesRow(arr) {
+    let resultRow = '';
+    for (let i = 0; i < arr.length; i++) {
+        const isNotLastElement = i < arr.length - 1;
+        resultRow +- arr[i];
+
+        if (isNotLastElement) {
+           resultRow += ', '; 
+        }
+    } 
+    console.log(resultRow);
 }
+
+const test1 = [1, 2, 3];
+const test2 = ['keturi', 'trys', 'šeši'];
+
+printIndexesRow(test1);
+printIndexesRow(test2);
+
+}
+
 console.groupEnd();
 
 console.groupCollapsed('12. Parašykite funkciją, kuri atspausdina kiekvieno masyvo elemento reikšmes vienoje eilutėje: -111 2 -9 48');
 {
-  // ...sprendimas ir spausdinimas
+    function printArrayElementsRow(array) {
+        let arrayElementsRow = array;
+        for(let a = 0; a < array.length; a++);
+        console.log(arrayElementsRow);
+      }
+    const testArray1 = [-111, 2, -9, 48];
+    
+    printArrayElementsRow(testArray1);
 }
 console.groupEnd();
 

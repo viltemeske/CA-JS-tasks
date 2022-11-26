@@ -120,13 +120,30 @@ console.groupCollapsed('9. Parašykite funkciją, kuri atspausdina kiekvieno mas
 // [1] => reikšmė
 // [2] => reikšmė
 {
-    
+    function printArryElementsAndIndeexesInRows() {
+        const array = [9, 15, 33];
+        const arrow = "=>";
+        let i = 0;
+        while (i < array.length) {
+          console.log([i], arrow, array[i]);
+          i++;
+        }
+    }    
+    printArryElementsAndIndeexesInRows();
 }
 console.groupEnd();
 
 console.groupCollapsed('10. Parašykite funkciją, kuri atspausdina masyvo elementus atbuline tvarka eilutėmis, iš galo.');
 {
-  // ...sprendimas ir spausdinimas
+    function printArryElementsInRowsReverse() {
+        const array = ['keturi', -15, 'trys', 'šeši', 99, 'a']
+        let i = array.length - 1;
+        while (i >= 0) {
+          console.log(array[i]);
+          i--;
+        }
+    }    
+        printArryElementsInRowsReverse();
 }
 console.groupEnd();
 
@@ -136,7 +153,7 @@ console.groupCollapsed('11. Parašykite funkciją, kuri atspausdina kiekvieno ma
     let resultRow = '';
     for (let i = 0; i < arr.length; i++) {
         const isNotLastElement = i < arr.length - 1;
-        resultRow +- arr[i];
+        resultRow += arr[i];
 
         if (isNotLastElement) {
            resultRow += ', '; 

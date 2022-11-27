@@ -10,7 +10,7 @@ console.groupCollapsed('WHILE');
 {
   console.groupCollapsed('1. Sukurkite ciklą kuris 5 kartus atspausdintų "Sveikas Pasauli"');
   {
-    let i = 10;
+    let i = 5;
 
     while (i > 0) {
       console.log('Sveikas Pasauli');

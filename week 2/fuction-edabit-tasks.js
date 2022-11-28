@@ -4,8 +4,8 @@ console.groupCollapsed('https://edabit.com/challenge/ARr5tA458o2tC9FTN')
         return "hello edabit.com"
     }
 
-const answer = hello();
-console.log(answer);
+    const answer = hello();
+    console.log(answer);
 
 }
 console.groupEnd()
@@ -45,9 +45,9 @@ console.groupCollapsed('https://edabit.com/challenge/nhXofMMyrowMyr9Nv')
         return (side1 + side2) - 1;
     }
 
-console.log(nextEdge(8, 10));
-console.log(nextEdge(5, 7));
-console.log(nextEdge(9, 2));
+    console.log(nextEdge(8, 10));
+    console.log(nextEdge(5, 7));
+    console.log(nextEdge(9, 2));
 
 }
 console.groupEnd()
@@ -55,7 +55,7 @@ console.groupEnd()
 console.groupCollapsed('https://edabit.com/challenge/6AnQqiEjkJdZrWhPS')
 {
     function howManySeconds(hours) {
-        return hours*3600;
+        return hours * 3600;
     }
     console.log(howManySeconds(2));
     console.log(howManySeconds(10));
@@ -67,7 +67,7 @@ console.groupEnd()
 console.groupCollapsed('https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk')
 {
     function remainder(x, y) {
-        return x % y; 
+        return x % y;
     }
     console.log(remainder(1, 3));
     console.log(remainder(3, 4));
@@ -124,7 +124,155 @@ console.groupCollapsed('https://edabit.com/challenge/fBJyQSe5Jmbm9hPAG')
 }
 console.groupEnd()
 
-console.groupCollapsed()
+console.groupCollapsed('https://edabit.com/challenge/vvuAkYEAArrZvmp6X')
+{
+    function bitwiseAND(n1, n2) {
+        return n1 & n2;
+    }
+
+    function bitwiseOR(n1, n2) {
+        return n1 | n2;
+    }
+
+    function bitwiseXOR(n1, n2) {
+        return n1 ^ n2;
+    }
+
+    console.log(bitwiseAND(6, 23));
+    console.log(bitwiseOR(6, 23));
+    console.log(bitwiseXOR(6, 23));
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/XnJ24rWW7iJkNrtsh')
+{
+    function findPerimeter(length, width) {
+        return (length + width) * 2;
+    }
+    console.log(findPerimeter(6, 7));
+    console.log(findPerimeter(20, 10));
+    console.log(findPerimeter(2, 9));
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/3LpBLgNRyaHMvNb4j')
+{
+    function addition(a, b) {
+        return a + b;
+    }
+
+    console.log(addition(3, 2));
+    console.log(addition(-3, -6));
+    console.log(addition(7, 3));
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/NAQhEoxbofPidLxm9')
+{
+    function addition(num) {
+        return num + 1;
+    }
+
+    console.log(addition(0));
+    console.log(addition(9));
+    console.log(addition(-3));
+
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/PTiLYyb4A69KZtBCg')
+{
+    function lessThanOrEqualToZero(num) {
+        return num <= 0;
+    }
+    console.log(lessThanOrEqualToZero(5));
+    console.log(lessThanOrEqualToZero(0));
+    console.log(lessThanOrEqualToZero(-2));
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/j7yQbF3J3rToHsDBP')
+{
+    function cubes(a) {
+        return a ** 3;
+    }
+    console.log(cubes(3));
+    console.log(cubes(5));
+    console.log(cubes(10));
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/4gzDuDkompAqujpRi')
+{
+    function addUp(num) {
+        const i = 1;
+        return (i + num) / 2 * num;
+    }
+
+    console.log(addUp(4));
+    console.log(addUp(13));
+    console.log(addUp(600));
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/3CaszbdZYGN4otQD8')
+{
+    function triArea(base, height) {
+        return (base * height) / 2;
+    }
+    console.log(triArea(3, 2));
+    console.log(triArea(7, 4));
+    console.log(triArea(10, 10));
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/tYHkTdFrEmWfxpPKF')
+{
+    function matchHouses(step) {
+        const matchesAmount = 6;
+        if (step > 0) {
+            return matchesAmount + (matchesAmount - 1) * (step - 1);
+        } else {
+            return 0;
+        }
+
+    }
+    console.log(matchHouses(1));
+    console.log(matchHouses(4));
+    console.log(matchHouses(87));
+    console.log(matchHouses(0));
+    console.log(matchHouses(14));
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/o7TwicAHWuMkjbDqQ')
+{
+    function whichIsLarger(f, g) {
+        let result;
+        if (f > g) {
+            result = 'f';
+        } else if (f === g) {
+            result = 'neither';
+        } else {
+            result = 'g';
+        }
+        return result;
+    }
+    console.log(whichIsLarger(5, 10));
+    console.log(whichIsLarger(25, 25));
+    console.log(whichIsLarger(505050, 5050));
+
+}
+console.groupEnd()
+
+console.groupCollapsed('https://edabit.com/challenge/fiLc5x3x2bHzHvgK4')
 {
 
 
@@ -133,87 +281,5 @@ console.groupCollapsed()
 
 }
 console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-console.group()
-{
-
-
-
-
-
-}
-console.groupEnd()
-
 
 

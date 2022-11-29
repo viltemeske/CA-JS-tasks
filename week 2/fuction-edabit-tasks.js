@@ -312,3 +312,18 @@ console.log(timeForMilkAndCookies(new Date(3000, 11, 24)));
 
 }
 console.groupEnd()
+
+console.groupCollapsed('24 - https://edabit.com/challenge/PTiLYyb4A69KZtBCg')
+{
+    function lessThanOrEqualToZero(num) {
+        if (num > 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    console.log(lessThanOrEqualToZero(5));
+    console.log(lessThanOrEqualToZero(0));
+    console.log(lessThanOrEqualToZero(-3));
+}
+console.groupEnd()

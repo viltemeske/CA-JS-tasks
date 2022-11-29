@@ -1,8 +1,16 @@
 console.groupCollapsed('1 - https://edabit.com/challenge/nuXdWHAoHv9y38sn7');
 {
     function sortDrinkByPrice(drinks) {
-	
+        const sortedDrinks = drinks.sort((a, b) => a.price - b.price);
+        return sortedDrinks;
     }
+
+    const drinks = [
+        { name: "lemonade", price: 50 },
+        { name: "lime", price: 10 },
+        { name: "tea", price: 15 }];
+
+    console.table(sortDrinkByPrice(drinks));
 }
 console.groupEnd();
 

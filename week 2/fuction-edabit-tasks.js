@@ -1,4 +1,4 @@
-console.groupCollapsed('https://edabit.com/challenge/ARr5tA458o2tC9FTN')
+console.groupCollapsed('1 - https://edabit.com/challenge/ARr5tA458o2tC9FTN')
 {
     function hello() {
         return "hello edabit.com"
@@ -10,7 +10,7 @@ console.groupCollapsed('https://edabit.com/challenge/ARr5tA458o2tC9FTN')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/QaApgtePE6QrCZ64o')
+console.groupCollapsed('2 - https://edabit.com/challenge/QaApgtePE6QrCZ64o')
 {
     function getFirstValue(arr) {
         return arr[0];
@@ -26,7 +26,7 @@ console.groupCollapsed('https://edabit.com/challenge/QaApgtePE6QrCZ64o')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/8q54MKnRrm89pSLmW')
+console.groupCollapsed('3 - https://edabit.com/challenge/8q54MKnRrm89pSLmW')
 {
     function convert(minutes) {
         return minutes * 60;
@@ -39,7 +39,7 @@ console.groupCollapsed('https://edabit.com/challenge/8q54MKnRrm89pSLmW')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/nhXofMMyrowMyr9Nv')
+console.groupCollapsed('4 - https://edabit.com/challenge/nhXofMMyrowMyr9Nv')
 {
     function nextEdge(side1, side2) {
         return (side1 + side2) - 1;
@@ -52,7 +52,7 @@ console.groupCollapsed('https://edabit.com/challenge/nhXofMMyrowMyr9Nv')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/6AnQqiEjkJdZrWhPS')
+console.groupCollapsed('5 - https://edabit.com/challenge/6AnQqiEjkJdZrWhPS')
 {
     function howManySeconds(hours) {
         return hours * 3600;
@@ -64,7 +64,7 @@ console.groupCollapsed('https://edabit.com/challenge/6AnQqiEjkJdZrWhPS')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk')
+console.groupCollapsed('6 - https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk')
 {
     function remainder(x, y) {
         return x % y;
@@ -77,7 +77,7 @@ console.groupCollapsed('https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/ks3vMrqdnW3CQ3F4i')
+console.groupCollapsed('7 - https://edabit.com/challenge/ks3vMrqdnW3CQ3F4i')
 {
     function squared(b) {
         return b * b
@@ -89,7 +89,7 @@ console.groupCollapsed('https://edabit.com/challenge/ks3vMrqdnW3CQ3F4i')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw')
+console.groupCollapsed('8 - https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw')
 {
     function calcAge(age) {
         return age * 365;
@@ -100,7 +100,7 @@ console.groupCollapsed('https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/wAdE9te55cowBLcPs')
+console.groupCollapsed('9 - https://edabit.com/challenge/wAdE9te55cowBLcPs')
 {
     function circuitPower(voltage, current) {
         return voltage * current;
@@ -112,7 +112,7 @@ console.groupCollapsed('https://edabit.com/challenge/wAdE9te55cowBLcPs')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/fBJyQSe5Jmbm9hPAG')
+console.groupCollapsed('10 - https://edabit.com/challenge/fBJyQSe5Jmbm9hPAG')
 {
     function sumPolygon(n) {
         return (n - 2) * 180;
@@ -124,7 +124,7 @@ console.groupCollapsed('https://edabit.com/challenge/fBJyQSe5Jmbm9hPAG')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/vvuAkYEAArrZvmp6X')
+console.groupCollapsed('11 - https://edabit.com/challenge/vvuAkYEAArrZvmp6X')
 {
     function bitwiseAND(n1, n2) {
         return n1 & n2;
@@ -138,13 +138,13 @@ console.groupCollapsed('https://edabit.com/challenge/vvuAkYEAArrZvmp6X')
         return n1 ^ n2;
     }
 
-    console.log(bitwiseAND(6, 23));
-    console.log(bitwiseOR(6, 23));
-    console.log(bitwiseXOR(6, 23));
+    console.log(bitwiseAND(7, 12));
+    console.log(bitwiseOR(7, 12));
+    console.log(bitwiseXOR(7, 12));
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/XnJ24rWW7iJkNrtsh')
+console.groupCollapsed('12 - https://edabit.com/challenge/XnJ24rWW7iJkNrtsh')
 {
     function findPerimeter(length, width) {
         return (length + width) * 2;
@@ -156,7 +156,7 @@ console.groupCollapsed('https://edabit.com/challenge/XnJ24rWW7iJkNrtsh')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/3LpBLgNRyaHMvNb4j')
+console.groupCollapsed('13 - https://edabit.com/challenge/3LpBLgNRyaHMvNb4j')
 {
     function addition(a, b) {
         return a + b;
@@ -169,7 +169,7 @@ console.groupCollapsed('https://edabit.com/challenge/3LpBLgNRyaHMvNb4j')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/NAQhEoxbofPidLxm9')
+console.groupCollapsed('14 - https://edabit.com/challenge/NAQhEoxbofPidLxm9')
 {
     function addition(num) {
         return num + 1;
@@ -183,7 +183,7 @@ console.groupCollapsed('https://edabit.com/challenge/NAQhEoxbofPidLxm9')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/PTiLYyb4A69KZtBCg')
+console.groupCollapsed('15 - https://edabit.com/challenge/PTiLYyb4A69KZtBCg')
 {
     function lessThanOrEqualToZero(num) {
         return num <= 0;
@@ -195,7 +195,7 @@ console.groupCollapsed('https://edabit.com/challenge/PTiLYyb4A69KZtBCg')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/j7yQbF3J3rToHsDBP')
+console.groupCollapsed('16 - https://edabit.com/challenge/j7yQbF3J3rToHsDBP')
 {
     function cubes(a) {
         return a ** 3;
@@ -207,7 +207,7 @@ console.groupCollapsed('https://edabit.com/challenge/j7yQbF3J3rToHsDBP')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/4gzDuDkompAqujpRi')
+console.groupCollapsed('17 - https://edabit.com/challenge/4gzDuDkompAqujpRi')
 {
     function addUp(num) {
         const i = 1;
@@ -221,7 +221,7 @@ console.groupCollapsed('https://edabit.com/challenge/4gzDuDkompAqujpRi')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/3CaszbdZYGN4otQD8')
+console.groupCollapsed('18 - https://edabit.com/challenge/3CaszbdZYGN4otQD8')
 {
     function triArea(base, height) {
         return (base * height) / 2;
@@ -233,7 +233,7 @@ console.groupCollapsed('https://edabit.com/challenge/3CaszbdZYGN4otQD8')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/tYHkTdFrEmWfxpPKF')
+console.groupCollapsed('19 - https://edabit.com/challenge/tYHkTdFrEmWfxpPKF')
 {
     function matchHouses(step) {
         const matchesAmount = 6;
@@ -252,7 +252,7 @@ console.groupCollapsed('https://edabit.com/challenge/tYHkTdFrEmWfxpPKF')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/o7TwicAHWuMkjbDqQ')
+console.groupCollapsed('20 - https://edabit.com/challenge/o7TwicAHWuMkjbDqQ')
 {
     function whichIsLarger(f, g) {
         let result;
@@ -272,7 +272,7 @@ console.groupCollapsed('https://edabit.com/challenge/o7TwicAHWuMkjbDqQ')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/Gz27eKkMcLarzE5Rj')
+console.groupCollapsed('21 - https://edabit.com/challenge/Gz27eKkMcLarzE5Rj')
 {
     function sortByLength(arr) {
         const asc = arr.sort((a, b) => a.length - b.length);
@@ -284,7 +284,7 @@ console.groupCollapsed('https://edabit.com/challenge/Gz27eKkMcLarzE5Rj')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/7ysTEDruHz2prcJQ9')
+console.groupCollapsed('22 - https://edabit.com/challenge/7ysTEDruHz2prcJQ9')
 {
     function tuckIn(arr1, arr2) {
         return [arr1[0], ...arr2, arr1[arr1.length -1]];

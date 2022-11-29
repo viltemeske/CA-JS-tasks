@@ -272,14 +272,27 @@ console.groupCollapsed('https://edabit.com/challenge/o7TwicAHWuMkjbDqQ')
 }
 console.groupEnd()
 
-console.groupCollapsed('https://edabit.com/challenge/fiLc5x3x2bHzHvgK4')
+console.groupCollapsed('https://edabit.com/challenge/Gz27eKkMcLarzE5Rj')
 {
-
-
-
-
-
+    function sortByLength(arr) {
+        const asc = arr.sort((a, b) => a.length - b.length);
+        return asc;
+    }
+    console.log(sortByLength(["Google", "Apple", "Microsoft"]));
+    console.log(sortByLength(["Leonardo", "Michelangelo", "Raphael", "Donatello"]));
+    console.log(sortByLength(["Turing", "Einstein", "Jung"]));
 }
 console.groupEnd()
 
+console.groupCollapsed('https://edabit.com/challenge/7ysTEDruHz2prcJQ9')
+{
+    function tuckIn(arr1, arr2) {
+        return [arr1[0], ...arr2, arr1[arr1.length -1]];
+    }
 
+}
+console.log(tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9])); 
+console.log(tuckIn([15,150], [45, 75, 35]));
+console.log(tuckIn([[1, 2], [5, 6]], [[3, 4]]));
+
+console.groupEnd()

@@ -296,3 +296,19 @@ console.log(tuckIn([15,150], [45, 75, 35]));
 console.log(tuckIn([[1, 2], [5, 6]], [[3, 4]]));
 
 console.groupEnd()
+
+console.groupCollapsed('23 - https://edabit.com/challenge/hPWnaSckJke5FXNEH')
+{
+function timeForMilkAndCookies(date) {
+	if (date.getMonth() === 11 && date.getDate() === 24) {
+		return true;
+	} else {
+		return false;
+	}
+}
+console.log(timeForMilkAndCookies(new Date(2013, 11, 24)));
+console.log(timeForMilkAndCookies(new Date(2013, 0, 23)));
+console.log(timeForMilkAndCookies(new Date(3000, 11, 24)));
+
+}
+console.groupEnd()

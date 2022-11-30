@@ -26,12 +26,12 @@ console.groupCollapsed('3 - https://edabit.com/challenge/48EJWLhF224na8po3');
 }
 console.groupEnd();
 
-console.groupCollapsed('4 - https://edabit.com/challenge/i6YqzHcSiPiEQKjeX'); ///nesuprantu, kodėl nesigauna
+console.groupCollapsed('4 - https://edabit.com/challenge/i6YqzHcSiPiEQKjeX');
 {
     function maximumScore(tileHand) {
         let sum = 0;
-        for (i = 0; i < tileHand.lenth; i++) {
-            sum += tileHand[i].score;
+        for (let i = 0; i < tileHand.length; i++) {
+            sum += tileHand[i].score
         }
         return sum
     }

@@ -16,13 +16,55 @@ console.groupEnd();
 
 console.groupCollapsed('2 - https://edabit.com/challenge/9KEKJG5PZTFmG3Zau');
 {
-
+    function addName(obj, name, value) {
+        return {...obj, [name]: value};
+    }
+console.log(addName({}, "Brutus", 300));
+console.log(addName({ piano: 500 }, "Brutus", 400));
+console.log(addName({ piano: 500, stereo: 300 }, "Caligula", 440));    
 }
 console.groupEnd();
 
 console.groupCollapsed('3 - https://edabit.com/challenge/48EJWLhF224na8po3');
 {
-
+    function generation(x, y) {
+        return generations[x + ''][y]
+    }
+    const generations = {
+        '-3': {
+            m: 'great grandfather',
+            f: 'great grandmother',
+        },
+        '-2': {
+            m: 'grandfather',
+            f: 'grandmother',
+        },
+        '-1': {
+            m: 'father',
+            f: 'mother',
+        },
+        '0': {
+            m: 'none',
+            f: 'me!',
+        },
+        '1': {
+            m: 'son',
+            f: 'daughter',
+        },
+        '2': {
+            m: 'grandson',
+            f: 'granddaughter',
+        },
+        '3': {
+            m: 'great grandson',
+            f: 'great granddaughter',
+        }
+    }
+    console.log(generation(2, "f"));
+    console.log(generation(-3, "m"));
+    console.log(generation(1, "f"));
+    console.log(generation(0, "f"));
+    console.log(generation(0, "m"));
 }
 console.groupEnd();
 

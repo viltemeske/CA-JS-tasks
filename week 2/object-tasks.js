@@ -40,7 +40,12 @@ console.groupEnd();
 
 console.groupCollapsed('6 - https://edabit.com/challenge/pPNAs5PvB3WvnDwDM');
 {
-
+    function toArray(obj) {
+        return Object.entries(obj)
+    }
+    console.log(toArray({ a: 1, b: 2 }));
+    console.log(toArray({ shrimp: 15, tots: 12 }));
+    console.log(toArray({}));
 }
 console.groupEnd();
 
@@ -49,29 +54,29 @@ console.groupCollapsed('7 - https://edabit.com/challenge/QXWM2oo7rQNiyDsip');
     function inkLevels(inks) {
         return Math.min(inks.cyan, inks.magenta, inks.yellow)
     }
-    
-    
-    const  Printer1 = {
+
+
+    const Printer1 = {
         "cyan": 23,
         "magenta": 12,
         "yellow": 10
-      };
-      
+    };
+
     const Printer2 = {
         "cyan": 432,
         "magenta": 543,
         "yellow": 777
-      };
-      
-     const Printer3 = {
+    };
+
+    const Printer3 = {
         "cyan": 700,
         "magenta": 700,
         "yellow": 0
-      };
+    };
 
-      console.log(inkLevels(Printer1));
-      console.log(inkLevels(Printer2));
-      console.log(inkLevels(Printer3));   
+    console.log(inkLevels(Printer1));
+    console.log(inkLevels(Printer2));
+    console.log(inkLevels(Printer3));
 }
 console.groupEnd();
 
@@ -79,25 +84,25 @@ console.groupCollapsed('8 - https://edabit.com/challenge/pLNavsePxJ87t9Nak');
 {
     function calculateLosses(obj) {
         let stolenItemValue = Object.values(obj);
-         if (stolenItemValue.length === 0) {
-             return 'Lucky you!'
-         } else {
-             return stolenItemValue.reduce(function(a, b){
-                             return a + b;
-                         })
-         }
-     }
+        if (stolenItemValue.length === 0) {
+            return 'Lucky you!'
+        } else {
+            return stolenItemValue.reduce(function (a, b) {
+                return a + b;
+            })
+        }
+    }
     const stolenItems1 = {
         tv: 30,
         skate: 20,
         stereo: 50,
-      }
+    }
 
-      const stolenItems2 = {
+    const stolenItems2 = {
         painting: 20000,
-      };
+    };
 
-      const stolenItems3 = {};
+    const stolenItems3 = {};
 
     console.log(calculateLosses(stolenItems1));
     console.log(calculateLosses(stolenItems2));

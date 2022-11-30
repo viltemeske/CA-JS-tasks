@@ -34,7 +34,13 @@ console.groupEnd();
 
 console.groupCollapsed('5 - https://edabit.com/challenge/8s2jy9hR2TAeQinKD');
 {
-
+    function calculateDifference(obj, limit) {
+        return Object.values(obj).reduce((a, b) => a + b) - limit
+	
+    }
+console.log(calculateDifference({ "baseball bat": 20 }, 5));
+console.log(calculateDifference({ skate: 10, painting: 20 }, 19));
+console.log(calculateDifference({ skate: 200, painting: 200, shoes: 1 }, 400));    
 }
 console.groupEnd();
 

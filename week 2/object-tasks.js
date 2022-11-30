@@ -26,8 +26,36 @@ console.groupCollapsed('3 - https://edabit.com/challenge/48EJWLhF224na8po3');
 }
 console.groupEnd();
 
-console.groupCollapsed('4 - https://edabit.com/challenge/i6YqzHcSiPiEQKjeX');
+console.groupCollapsed('4 - https://edabit.com/challenge/i6YqzHcSiPiEQKjeX'); ///nesuprantu, kodėl nesigauna
 {
+    function maximumScore(tileHand) {
+        let sum = 0;
+        for (i = 0; i < tileHand.lenth; i++) {
+            sum += tileHand[i].score;
+        }
+        return sum
+    }
+    const tileHand1 = [
+        { tile: "N", score: 1 },
+        { tile: "K", score: 5 },
+        { tile: "Z", score: 10 },
+        { tile: "X", score: 8 },
+        { tile: "D", score: 2 },
+        { tile: "A", score: 1 },
+        { tile: "E", score: 1 }
+    ];
+    const tileHand2 = [
+        { tile: "B", score: 2 },
+        { tile: "V", score: 4 },
+        { tile: "F", score: 4 },
+        { tile: "U", score: 1 },
+        { tile: "D", score: 2 },
+        { tile: "O", score: 1 },
+        { tile: "U", score: 1 }
+    ];
+
+    console.log(maximumScore(tileHand1));
+    console.log(maximumScore(tileHand2));
 
 }
 console.groupEnd();
@@ -36,11 +64,11 @@ console.groupCollapsed('5 - https://edabit.com/challenge/8s2jy9hR2TAeQinKD');
 {
     function calculateDifference(obj, limit) {
         return Object.values(obj).reduce((a, b) => a + b) - limit
-	
+
     }
-console.log(calculateDifference({ "baseball bat": 20 }, 5));
-console.log(calculateDifference({ skate: 10, painting: 20 }, 19));
-console.log(calculateDifference({ skate: 200, painting: 200, shoes: 1 }, 400));    
+    console.log(calculateDifference({ "baseball bat": 20 }, 5));
+    console.log(calculateDifference({ skate: 10, painting: 20 }, 19));
+    console.log(calculateDifference({ skate: 200, painting: 200, shoes: 1 }, 400));
 }
 console.groupEnd();
 

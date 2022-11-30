@@ -52,6 +52,30 @@ console.groupEnd();
 
 console.groupCollapsed('8 - https://edabit.com/challenge/pLNavsePxJ87t9Nak');
 {
+    function calculateLosses(obj) {
+        let stolenItemValue = Object.values(obj);
+         if (stolenItemValue.length === 0) {
+             return 'Lucky you!'
+         } else {
+             return stolenItemValue.reduce(function(a, b){
+                             return a + b;
+                         })
+         }
+     }
+    const stolenItems1 = {
+        tv: 30,
+        skate: 20,
+        stereo: 50,
+      }
 
+      const stolenItems2 = {
+        painting: 20000,
+      };
+
+      const stolenItems3 = {};
+
+    console.log(calculateLosses(stolenItems1));
+    console.log(calculateLosses(stolenItems2));
+    console.log(calculateLosses(stolenItems3));
 }
 console.groupEnd();

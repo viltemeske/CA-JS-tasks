@@ -46,7 +46,32 @@ console.groupEnd();
 
 console.groupCollapsed('7 - https://edabit.com/challenge/QXWM2oo7rQNiyDsip');
 {
+    function inkLevels(inks) {
+        return Math.min(inks.cyan, inks.magenta, inks.yellow)
+    }
+    
+    
+    const  Printer1 = {
+        "cyan": 23,
+        "magenta": 12,
+        "yellow": 10
+      };
+      
+    const Printer2 = {
+        "cyan": 432,
+        "magenta": 543,
+        "yellow": 777
+      };
+      
+     const Printer3 = {
+        "cyan": 700,
+        "magenta": 700,
+        "yellow": 0
+      };
 
+      console.log(inkLevels(Printer1));
+      console.log(inkLevels(Printer2));
+      console.log(inkLevels(Printer3));   
 }
 console.groupEnd();
 

@@ -146,19 +146,36 @@ console.groupEnd();
 
 console.groupCollapsed('10. Sukurkite objektą, kuriame būtų apskaičiuotas vairuojančių žmonių kiekis pagal lytį');
 {
-    function increasePeopleCount(person) {
-        if (person.sex === 'female') femaleCount++;
-        else if (person.sex === 'male') maleCount++;
+    
+        let maleCount = 0
+        let femaleCount = 0
+
+        function countDrivers(person) {
+        if (person.sex === 'female' && person.hasCar === true) femaleCount++;
+        else if (person.sex === 'male' && person.hasCar === true) maleCount++;
     }
+
+    people.forEach(countDrivers);
+    console.log('Moterys vairuotojos - ', femaleCount, 'Vyrai vairuotojai - ', maleCount);
+
+}
     console.groupEnd();
 
     console.groupCollapsed('11. Performuokite žmonių masyvą, jog kiekvieno žmogaus savybė "income", taptų "salary"');
     {
-        //function incomeToSalary (people) {
-        //    return people.income = people.salary;
-        //}
-        //const newArray = people.map(incomeToSalary);
-        //console.log(newArray);
+        function formIncomeToSallary(person) {
+            return {
+                name: person.name,
+                surname: person.surname,
+                sex: person.sex,
+                age: person.age,
+                salary: person.income,
+                married: person.married,
+                hasCar: person.hasCar
+            };
+        }
+        const peopleNew = people.map(formIncomeToSallary);
+        console.table(peopleNew)
     }
     console.groupEnd();
 
@@ -194,4 +211,3 @@ console.groupCollapsed('10. Sukurkite objektą, kuriame būtų apskaičiuotas va
         console.table(peopleFullname)
     }
     console.groupEnd();
-}

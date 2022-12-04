@@ -159,13 +159,12 @@ console.groupEnd();
 console.groupCollapsed('8 - https://edabit.com/challenge/pLNavsePxJ87t9Nak');
 {
     function calculateLosses(obj) {
-        let stolenItemValue = Object.values(obj);
+        const stolenItemValue = Object.values(obj);
         if (stolenItemValue.length === 0) {
             return 'Lucky you!'
         } else {
             return stolenItemValue.reduce(function (a, b) {
-                return a + b;
-            })
+                return a + b;})
         }
     }
     const stolenItems1 = {

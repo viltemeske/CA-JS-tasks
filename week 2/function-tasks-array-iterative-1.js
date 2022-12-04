@@ -146,11 +146,11 @@ console.groupEnd();
 
 console.groupCollapsed('10. Sukurkite objektą, kuriame būtų apskaičiuotas vairuojančių žmonių kiekis pagal lytį');
 {
-    
-        let maleCount = 0
-        let femaleCount = 0
 
-        function countDrivers(person) {
+    let maleCount = 0
+    let femaleCount = 0
+
+    function countDrivers(person) {
         if (person.sex === 'female' && person.hasCar === true) femaleCount++;
         else if (person.sex === 'male' && person.hasCar === true) maleCount++;
     }
@@ -159,55 +159,55 @@ console.groupCollapsed('10. Sukurkite objektą, kuriame būtų apskaičiuotas va
     console.log('Moterys vairuotojos - ', femaleCount, 'Vyrai vairuotojai - ', maleCount);
 
 }
-    console.groupEnd();
+console.groupEnd();
 
-    console.groupCollapsed('11. Performuokite žmonių masyvą, jog kiekvieno žmogaus savybė "income", taptų "salary"');
-    {
-        function formIncomeToSallary(person) {
-            return {
-                name: person.name,
-                surname: person.surname,
-                sex: person.sex,
-                age: person.age,
-                salary: person.income,
-                married: person.married,
-                hasCar: person.hasCar
-            };
-        }
-        const peopleNew = people.map(formIncomeToSallary);
-        console.table(peopleNew)
+console.groupCollapsed('11. Performuokite žmonių masyvą, jog kiekvieno žmogaus savybė "income", taptų "salary"');
+{
+    function formIncomeToSallary(person) {
+        return {
+            name: person.name,
+            surname: person.surname,
+            sex: person.sex,
+            age: person.age,
+            salary: person.income,
+            married: person.married,
+            hasCar: person.hasCar
+        };
     }
-    console.groupEnd();
+    const peopleNew = people.map(formIncomeToSallary);
+    console.table(peopleNew)
+}
+console.groupEnd();
 
-    console.groupCollapsed('12. Suformuokite žmonių masyvą iš objektų, kuriuose nebūtų lyties, vardo ir pavardės');
-    {
-        function formAnonymousPerson(people) {
-            return {
-                sex: people.sex,
-                age: people.age,
-                income: people.income,
-                married: people.married,
-                hasCar: people.hasCar
-            };
-        }
-        const people2 = people.map(formAnonymousPerson);
-        console.table(people2)
+console.groupCollapsed('12. Suformuokite žmonių masyvą iš objektų, kuriuose nebūtų lyties, vardo ir pavardės');
+{
+    function formAnonymousPerson(people) {
+        return {
+            sex: people.sex,
+            age: people.age,
+            income: people.income,
+            married: people.married,
+            hasCar: people.hasCar
+        };
     }
-    console.groupEnd();
+    const people2 = people.map(formAnonymousPerson);
+    console.table(people2)
+}
+console.groupEnd();
 
-    console.groupCollapsed('13. Suformuokite žmonių masyvą  iš objektų, kuriuose "name" ir "surname" savybės, būtų pakeistos "fullname" savybe');
-    {
-        function formFullName(people) {
-            return {
-                fullName: (people.name + ' ' + people.surname),
-                sex: people.sex,
-                age: people.age,
-                income: people.income,
-                married: people.married,
-                hasCar: people.hasCar
-            };
-        }
-        const peopleFullname = people.map(formFullName);
-        console.table(peopleFullname)
+console.groupCollapsed('13. Suformuokite žmonių masyvą  iš objektų, kuriuose "name" ir "surname" savybės, būtų pakeistos "fullname" savybe');
+{
+    function formFullName(people) {
+        return {
+            fullName: (people.name + ' ' + people.surname),
+            sex: people.sex,
+            age: people.age,
+            income: people.income,
+            married: people.married,
+            hasCar: people.hasCar
+        };
     }
-    console.groupEnd();
+    const peopleFullname = people.map(formFullName);
+    console.table(peopleFullname)
+}
+console.groupEnd();

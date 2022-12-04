@@ -241,7 +241,7 @@ console.log('---');
             if (arr[i] % 1 === 0) {
                 newArr[x] = arr[i];
             } else {
-                newArr[x] = Math.round(arr[i]);  
+                newArr[x] = Math.round(arr[i]);
             }
             x++;
         }
